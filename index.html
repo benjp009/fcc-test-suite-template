@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-      <header id='header'>
-        <img id="header-img" src='https://www-file.huawei.com/-/media/corporate/images/home/logo/huawei_logo.png'/>
-        <nav id="nav-bar">
-          <a href="#about" class='nav-link'>About</a>
-          <a href="#company" class='nav-link'>Company</a>
-          <a href="#team" class='nav-link'>Team</a>
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-        </nav>
-      </header>
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  
 
-      <iframe id="video" width="420" height="315"
-        src="https://youtu.be/y8Yv4pnO7qc">
-      </iframe>
+  <header id='header' style="position: fixed; top: 0;">
+    <img id="header-img" src='https://www-file.huawei.com/-/media/corporate/images/home/logo/huawei_logo.png' />
+    <nav id="nav-bar">
+      <a href="#about" class='nav-link'>About</a>
+      <a href="#company" class='nav-link'>Company</a>
+      <a href="#team" class='nav-link'>Team</a>
+    </nav>
+  </header>
 
-    <script  src="js/index.js"></script>
-  </body>
+  <form action="https://www.freecodecamp.org/email-submit" id="form">
+    <div>
+      <label for="email"></label>
+      <input type="email" name="email" value="email" id="email" placeholder="Enter email">
+    </div>
+
+    <input id="submit" type="submit" value="Submit">
+  </form>
+
+  <iframe id="video" width="420" height="315" src="https://youtu.be/y8Yv4pnO7qc">
+  </iframe>
+
+  <div id="about">About</div>
+  <div id="company">company</div>
+  <div id="team">team</div>
+  
+  <script src="js/index.js"></script>
+</body>
+
 </html>

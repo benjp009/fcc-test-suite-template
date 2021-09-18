@@ -1,0 +1,9 @@
+@media screen and (max-width: 992px) {
+  body {
+    background-color: grey;
+    
+  }
+  #header {
+    display: flex;
+  }
+}
